@@ -22,7 +22,7 @@ from conchmark.utils import (
 
 
 def main():
-    conf = OmegaConf.load("zero_config.yaml")
+    conf = OmegaConf.load("gemini_config.yaml")
     disable_existing_loggers()
     colossalai.launch_from_torch(config={})
     # colo_set_process_memory_fraction(0.5)

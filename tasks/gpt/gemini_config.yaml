@@ -6,5 +6,9 @@ gpt_config:
   hidden_size: 1024
   num_layers: 24
   num_attention_heads: 16
+  # GPT4B model
+  # hidden_size: 2304
+  # num_layers: 64
+  # num_attention_heads: 16
   checkpoint: True
 placement_policy: cpu

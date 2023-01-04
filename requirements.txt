@@ -1,2 +1,3 @@
 omegaconf
-pip install colossalai==0.1.12+torch1.12cu11.3 -f https://release.colossalai.org
+transformers
+colossalai==0.1.12+torch1.12cu11.3 -f https://release.colossalai.org
